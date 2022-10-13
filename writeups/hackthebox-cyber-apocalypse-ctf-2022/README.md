@@ -1,3 +1,8 @@
+---
+cover: ../../.gitbook/assets/CA_2022_CTF_Youtube_Prevent_Cover_2.jpg
+coverY: 0
+---
+
 # HackTheBox-Cyber-Apocalypse-CTF-2022
 
 {% content-ref url="puppeteer.md" %}
