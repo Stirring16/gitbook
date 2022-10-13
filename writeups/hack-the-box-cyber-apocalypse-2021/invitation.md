@@ -330,6 +330,7 @@ SEt ("G8"+"h")  (  " ) )63]Rahc[,'raZ'EcalPeR-  43]Rahc[,)05]Rahc[+87]Rahc[+94]R
 <figure><img src="../../.gitbook/assets/116122516-159c7580-a6ec-11eb-8a00-2a27789a68d5.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-_the\_new\_meta}_
+_\_the\_new\_meta}_
 {% endhint %}
 
+> So we got the flag: CHTB{maldocs_are_\__the\_new\_meta}_
