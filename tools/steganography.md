@@ -1,4 +1,5 @@
 ---
+cover: ../.gitbook/assets/13171561728565 (1).png
 coverY: 0
 ---
 
