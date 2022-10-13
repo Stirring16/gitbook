@@ -21,7 +21,7 @@ B9fjj4tlGekPOW+f8JGzgYJRWboekcnZfiQrLRhA3REn1lUKkRAnUqAkCEQDL/3Li
 
 * Tiếp tục ở Packet 230 mình tìm thấy được đoạn strings
 
-![](../../.gitbook/assets/116130934-fd315880-a6f5-11eb-98d3-b2c0b21c2002.png)
+<figure><img src="../../.gitbook/assets/116130934-fd315880-a6f5-11eb-98d3-b2c0b21c2002.png" alt=""><figcaption></figcaption></figure>
 
 ```
 ┌──(kali㉿kali)-[~/Desktop/CTF/HTB/LowEnergyCrypto]
