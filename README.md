@@ -9,7 +9,7 @@ coverY: 0
 
 ```
 👋 Hi, I’m Stirring
-👀 I’m interested in Forensics, OSINT, MISC, Blue Team
+👀 I’m interested in Forensics, OSINT, Steganography
 🌱 I’m currently learning Information Security at UIT
 ```
 

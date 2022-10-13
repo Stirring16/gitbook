@@ -1,5 +1,7 @@
 # Network
 
+> **Network forensics** is a sub-branch of [digital forensics](https://en.wikipedia.org/wiki/Digital\_forensics) relating to the monitoring and analysis of [computer network](https://en.wikipedia.org/wiki/Computer\_network) traffic for the purposes of information gathering, legal evidence, or [intrusion detection](https://en.wikipedia.org/wiki/Intrusion\_detection). Unlike other areas of digital forensics, network investigations deal with volatile and dynamic information. Network traffic is transmitted and then lost, so network forensics is often a pro-active investigation
+
 #### Wireshark
 
 * Analyze the network dumps

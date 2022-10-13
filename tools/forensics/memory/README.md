@@ -1,5 +1,7 @@
 # Memory
 
+> Memory forensics (sometimes referred to as memory analysis) refers to the analysis of volatile data in a computer’s memory dump. Information security professionals conduct memory forensics to investigate and identify attacks or malicious behaviors that do not leave easily detectable tracks on hard drive data.
+
 ## Install Volatility 2.6 <a href="#how-to-install-volatility-26-in-kali" id="how-to-install-volatility-26-in-kali"></a>
 
 ### Install Python 2 Pip: <a href="#as-volatility-relies-on-certain-python-2-dependencies-we-will-need-to-install-python-2-pip" id="as-volatility-relies-on-certain-python-2-dependencies-we-will-need-to-install-python-2-pip"></a>
