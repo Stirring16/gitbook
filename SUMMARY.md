@@ -18,3 +18,4 @@
     * [Key mission](writeups/hack-the-box-cyber-apocalypse-2021/key-mission.md)
     * [Invitation](writeups/hack-the-box-cyber-apocalypse-2021/invitation.md)
     * [AlienPhish](writeups/hack-the-box-cyber-apocalypse-2021/alienphish.md)
+    * [Low Energy Crypto](writeups/hack-the-box-cyber-apocalypse-2021/low-energy-crypto.md)
