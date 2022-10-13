@@ -5,7 +5,7 @@
   * [Forensics](tools/forensics/README.md)
     * [Memory](tools/forensics/memory/README.md)
       * [Linux](tools/forensics/memory/linux.md)
-      * [Windows](tools/forensics/memory/windows.md)
+      * [MacOS-X](tools/forensics/memory/macos-x.md)
     * [Network](tools/forensics/network.md)
     * [Disk Image](tools/forensics/disk-image.md)
   * [Steganography](tools/steganography.md)

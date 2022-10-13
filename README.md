@@ -5,8 +5,6 @@ coverY: 0
 
 # 😁 Welcome!
 
-<figure><img src=".gitbook/assets/ee31b81baa799897721dfd6e2d2ab97e.gif" alt=""><figcaption></figcaption></figure>
-
 ## About
 
 ```
