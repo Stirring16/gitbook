@@ -19,7 +19,7 @@ pip2 install --upgrade setuptools
 ```
 
 ```
-sudo apt-get install python-dev
+sudo apt-get install python2.7-dev
 ```
 
 ### Get the Volatility dependencies <a href="#now-that-pip2-is-installed-we-can-use-it-to-get-the-volatility-dependencies" id="now-that-pip2-is-installed-we-can-use-it-to-get-the-volatility-dependencies"></a>
