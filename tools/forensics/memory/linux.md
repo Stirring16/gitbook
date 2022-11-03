@@ -51,7 +51,7 @@ sudo reboot
 
 Spam shift or enter C, select \`Ubuntu, with Linux 4.4.0-72-lowtatency\`
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Make the profile&#x20;
 

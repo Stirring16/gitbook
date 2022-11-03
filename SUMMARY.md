@@ -11,6 +11,8 @@
   * [Steganography](tools/steganography.md)
   * [OSINT](tools/osint.md)
 * [📧 Writeups](writeups/README.md)
+  * [Hack The Boo](writeups/hack-the-boo/README.md)
+    * [Wrong Spooky Season](writeups/hack-the-boo/wrong-spooky-season.md)
   * [HackTheBox-Cyber-Apocalypse-CTF-2022](writeups/hackthebox-cyber-apocalypse-ctf-2022/README.md)
     * [Puppeteer](writeups/hackthebox-cyber-apocalypse-ctf-2022/puppeteer.md)
   * [Hack-The-Box-Cyber-Apocalypse-2021](writeups/hack-the-box-cyber-apocalypse-2021/README.md)
