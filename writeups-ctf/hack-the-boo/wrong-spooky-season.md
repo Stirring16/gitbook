@@ -29,7 +29,7 @@ We have <mark style="color:yellow;">pcap</mark> file!
 
 Use <mark style="color:red;">Wireshark</mark> open it.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 We have a lot of TCP and HTTP protocol. Let's check it
 
@@ -49,7 +49,7 @@ class.module.classLoader.resources.context.parent.pipeline.first.pattern=%25%7Bp
 
 Use CyberChef decode this
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```java
