@@ -9,4 +9,4 @@ coverY: 0
 
 # 👮♂ Blue Team
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Tryhackme</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Tryhackme</p></figcaption></figure>

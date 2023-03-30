@@ -12,4 +12,4 @@ coverY: 122.28413284132841
 > * Develop and implement IDS signatures
 > * Escalate the security incidents to the Tier 2 and Team Lead if needed
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>

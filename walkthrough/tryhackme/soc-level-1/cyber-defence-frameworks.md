@@ -8,7 +8,9 @@ description: >-
 
 ## Pyramid Of Pain
 
-![](<../../../.gitbook/assets/image (3).png>)
+&#x20;                                                    ![](<../../../.gitbook/assets/image (15).png>)
+
+
 
 ## Cyber Kill Chain
 
