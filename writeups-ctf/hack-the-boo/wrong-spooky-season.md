@@ -37,7 +37,7 @@ We have a lot of TCP and HTTP protocol. Let's check it
 
 Filter <mark style="color:blue;">HTTP</mark>, We can see <mark style="color:orange;">**ip.src = 192.168.1.180**</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> (Attacker) sent a POST request&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Follow TCP stream we can see the URLencoded:
 
