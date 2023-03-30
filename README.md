@@ -9,12 +9,15 @@ coverY: 0
 
 ```
 👋 Hi, I’m Stirring
-👀 I’m interested in Forensics, OSINT, Steganography
+👀 I’m interested in Digital Forensics and Blue Team
 🌱 I’m currently learning Information Security at UIT
+🌱 I'm currently doing an Internship to monitor cybersecurity at ZaloPay  
 ```
 
 ## Contact
 
 > Discord: Stirring#6928
+>
+> Telegram: [https://t.me/Stirring16](https://t.me/Stirring16)
 
 <figure><img src=".gitbook/assets/f1eda4768df8d8135c779772f2833e88 (1).gif" alt=""><figcaption></figcaption></figure>
