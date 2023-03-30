@@ -57,7 +57,7 @@ Challenge file
 
 Mình chú ý đến file `Microsoft-Windows-PowerShell%4Operational.evtx`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Mở file bằng Event log Exporer ta có thể thấy ngay rất nhiều Warming về `Execute a Remote Command` ở Event `4104`
 

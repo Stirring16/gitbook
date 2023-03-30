@@ -29,11 +29,11 @@ We have <mark style="color:yellow;">pcap</mark> file!
 
 Use <mark style="color:red;">Wireshark</mark> open it.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We have a lot of TCP and HTTP protocol. Let's check it
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Filter <mark style="color:blue;">HTTP</mark>, We can see <mark style="color:orange;">**ip.src = 192.168.1.180**</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> (Attacker) sent a POST request&#x20;
 
