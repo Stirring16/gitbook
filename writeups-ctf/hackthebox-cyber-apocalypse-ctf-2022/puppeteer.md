@@ -57,11 +57,11 @@ Challenge file
 
 Mình chú ý đến file `Microsoft-Windows-PowerShell%4Operational.evtx`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Mở file bằng Event log Exporer ta có thể thấy ngay rất nhiều Warming về `Execute a Remote Command` ở Event `4104`
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Và trong các Event 4104 có chứa PowerShell Script
 
@@ -129,7 +129,7 @@ write-host $stage3
 
 Đoạn này chỉ đơn giản Reverse lại `$stage2`, add `$stage1 + $stage2` vào biến `$stage3` và xor `$stage3` với `0xd1`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Convert decimal to ascii ta có flag:
 

@@ -7,7 +7,7 @@
 * Tiếp tục với Phân tích tài liệu độc, lần này là một file PowerPoint
 *
 
-    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ```
 ┌──(kali㉿kali)-[~/Desktop/HTB/AlienPhise]
