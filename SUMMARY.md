@@ -1,6 +1,8 @@
 # Table of contents
 
 * [😁 Welcome!](README.md)
+* [👮♂ Blue Team](blue-team/README.md)
+  * [Page 1](blue-team/page-1.md)
 * [🔧 Tools](tools/README.md)
   * [Forensics](tools/forensics/README.md)
     * [Memory](tools/forensics/memory/README.md)
@@ -35,5 +37,4 @@
     * [Boss Of The SOC v1](walkthrough/cyberdefenders/boss-of-the-soc-v1.md)
     * [Boss Of The SOC v2](walkthrough/cyberdefenders/boss-of-the-soc-v2.md)
     * [Boss Of The SOC v3](walkthrough/cyberdefenders/boss-of-the-soc-v3.md)
-* [👮♂ Blue Team](blue-team.md)
 * [📦 Resources](resources.md)
