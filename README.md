@@ -11,7 +11,7 @@ coverY: 0
 👋 Hi, I’m Stirring
 👀 I’m interested in Digital Forensics and Blue Team
 🌱 I’m currently learning Information Security at UIT
-🌱 I'm currently doing an Internship to monitor cybersecurity at ZaloPay  
+🌱 I'm currently doing Security Collaboratory at Zalopay  
 ```
 
 ## Contact

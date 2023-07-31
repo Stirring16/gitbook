@@ -1,8 +1,10 @@
 # Table of contents
 
 * [😁 Welcome!](README.md)
+* [🆘 Hands-on analyzing VBA macros](hands-on-analyzing-vba-macros.md)
 * [👮♂ Blue Team](blue-team/README.md)
-  * [Page 1](blue-team/page-1.md)
+  * [Page](blue-team/page.md)
+  * [😾 Privilege Escalation: Understanding, Prevention, and Detection](blue-team/privilege-escalation-understanding-prevention-and-detection.md)
 * [🔧 Tools](tools/README.md)
   * [Forensics](tools/forensics/README.md)
     * [Memory](tools/forensics/memory/README.md)
