@@ -11,6 +11,7 @@
 * [https://gbhackers-com.cdn.ampproject.org/c/s/gbhackers.com/how-to-build-and-run-a-security-operations-center/amp/](https://gbhackers-com.cdn.ampproject.org/c/s/gbhackers.com/how-to-build-and-run-a-security-operations-center/amp/)
 * [https://github.com/meirwah/awesome-incident-response](https://github.com/meirwah/awesome-incident-response)&#x20;
 * [https://web.archive.org/web/20221001144725/https://www.blueteamsacademy.com/](https://web.archive.org/web/20221001144725/https://www.blueteamsacademy.com/)
+* [https://www.ssa.org.sg/wp-content/uploads/2021/09/Cyber-Incident-Response-Playbook.pdf](https://www.ssa.org.sg/wp-content/uploads/2021/09/Cyber-Incident-Response-Playbook.pdf)
 
 ## Windows
 

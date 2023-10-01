@@ -15,6 +15,7 @@
   * [Steganography](tools/steganography.md)
   * [OSINT](tools/osint.md)
 * [📧 CTF Writeups](writeups-ctf/README.md)
+  * [Digital Dragon CTF 2023](ctf-writeups/digital-dragon-ctf-2023.md)
   * [Hack The Boo](writeups-ctf/hack-the-boo/README.md)
     * [Wrong Spooky Season](writeups-ctf/hack-the-boo/wrong-spooky-season.md)
   * [HackTheBox-Cyber-Apocalypse-CTF-2022](writeups-ctf/hackthebox-cyber-apocalypse-ctf-2022/README.md)
