@@ -203,3 +203,5 @@ Easy hơn ta có thể thêm .odt vào file flag và mở bằng word
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+
+## To be continue
