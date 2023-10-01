@@ -153,7 +153,7 @@ tshark -r evidence-1nv1s1bl3.pcapng -Y "dns.qry.name contains ie13y39.net && ip.
 Trong đó:&#x20;
 
 * `-r evidence-1nv1s1bl3.pcapng`: Chọn tệp pcapng  để phân tích.
-* `-Y "dns.qry.name contains ie13y39.net && ip.dst==172.25.20.5"`:  áp dụng biểu thức chọn lọc (filter) cho các gói tin trong tệp pcapng. Biểu thức này có hai phần:
+* `-Y "dns.qry.name contains ie13y39.net && ip.dst==172.25.20.5"`:   filter các gói tin trong tệp pcapng:
   * `dns.qry.name contains ie13y39.net`: Lọc các gói tin DNS query mà chứa chuỗi "ie13y39.net" trong domain query.
   * `ip.dst==172.25.20.5`: Lọc các gói tin có địa chỉ IP đích (destination IP) là 172.25.20.5.&#x20;
 * `-T fields`: Sử dụng tùy chọn `-T` để định dạng đầu ra.&#x20;
