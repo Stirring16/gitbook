@@ -177,7 +177,10 @@ Thêm `awk '{print $2}' | cut -d "." -f "1"` vào query&#x20;
 
 Sau đó lưu lại file này dưới dạng binary data bằng cách
 
-&#x20;**tr -d "\n\t" | xxd -r -p**
+&#x20;**`tr -d "\n\t" | xxd -r -p > flag/flag`**
+
+* `tr -d "\n\t"` là một lệnh dùng để xóa các ký tự xuống dòng ('\n') và ('\t') từ văn bản đầu vào
+* `xxd -r -p` là một lệnh trong Unix và các hệ thống tương tự được sử dụng để chuyển đổi dữ liệu từ định dạng hex (hexadecimal) thành dạng dữ liệu nhị phân (binary data)
 
 <figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
