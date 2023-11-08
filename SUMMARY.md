@@ -36,6 +36,8 @@
       * [Security Information and Event Management](walkthrough/tryhackme/soc-level-1/security-information-and-event-management.md)
       * [Digital Forensics and Incident Response](walkthrough/tryhackme/soc-level-1/digital-forensics-and-incident-response.md)
       * [Phishing](walkthrough/tryhackme/soc-level-1/phishing.md)
+    * [SOC Level 2](walkthrough/tryhackme/soc-level-2/README.md)
+      * [Log Analysis](walkthrough/tryhackme/soc-level-2/log-analysis.md)
   * [CyberDefenders](walkthrough/cyberdefenders.md)
     * [Boss Of The SOC v1](walkthrough/cyberdefenders/boss-of-the-soc-v1.md)
     * [Boss Of The SOC v2](walkthrough/cyberdefenders/boss-of-the-soc-v2.md)
