@@ -15,7 +15,7 @@
   * [Steganography](tools/steganography.md)
   * [OSINT](tools/osint.md)
 * [📧 CTF Writeups](writeups-ctf/README.md)
-  * [Digital Dragon CTF 2023](ctf-writeups/digital-dragon-ctf-2023/README.md)
+  * [Digital Dragon CTF 2023](ctf-writeups/digital-dragon-ctf-2023.md)
     * [First look at the Windows 7 Forensics](ctf-writeups/digital-dragon-ctf-2023/first-look-at-the-windows-7-forensics.md)
   * [Hack The Boo](writeups-ctf/hack-the-boo/README.md)
     * [Wrong Spooky Season](writeups-ctf/hack-the-boo/wrong-spooky-season.md)

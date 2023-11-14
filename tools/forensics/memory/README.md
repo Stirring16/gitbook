@@ -40,43 +40,7 @@ cd volatility
 sudo python setup.py install
 ```
 
-### Bash Script
 
-```
-#!/bin/bash
-
-# Check if Python 2.7 is installed
-if command -v python2 &>/dev/null; then
-  echo "Python 2.7 is already installed"
-else
-  echo "Python 2.7 is not installed, please install it and run this script again."
-  exit 1
-fi
-
-# Download and install pip for Python 2.7
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-python2 get-pip.py
-
-# Upgrade setuptools for Python 2.7
-pip2 install --upgrade setuptools
-
-# Install Python 2.7 development package
-if [ -f /usr/bin/apt-get ]; then
-  sudo apt-get install python2.7-dev
-fi
-
-# Install pycrypto
-pip2 install pycrypto
-
-# Install distorm3
-pip2 install distorm3
-
-# Clone Volatility repository and install it
-git clone https://github.com/volatilityfoundation/volatility
-cd volatility
-python setup.py install
-
-```
 
 ### Run Volatility
 
