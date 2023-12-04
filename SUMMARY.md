@@ -1,6 +1,7 @@
 # Table of contents
 
 * [😁 Welcome!](README.md)
+* [🏳 CVE-2023-46214: Attack, Detect and Forensic](cve-2023-46214-attack-detect-and-forensic.md)
 * [🆘 Hands-on analyzing VBA macros](hands-on-analyzing-vba-macros.md)
 * [👮♂ Blue Team](blue-team/README.md)
   * [Page](blue-team/page.md)
@@ -44,4 +45,3 @@
     * [Boss Of The SOC v2](walkthrough/cyberdefenders/boss-of-the-soc-v2.md)
     * [Boss Of The SOC v3](walkthrough/cyberdefenders/boss-of-the-soc-v3.md)
 * [📦 Resources](resources.md)
-* [🏳 CVE-2023-46214: Attack, Detect and Forensic](cve-2023-46214-attack-detect-and-forensic.md)
