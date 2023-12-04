@@ -50,15 +50,15 @@ Use the permanent AK and SK for configuring initialization:
 ./obsutil cp obs://1nv1s1bl3/evidence-1nv1s1bl3.pcapng /{Local Path}
 ```
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ta được cung cấp 1 flle pcapng. Dựa vào description của bài, ta được biết một số hoạt động đánh cắp dữ liệu đã được diễn ra. Ta có thể nghĩ đến DNS exfiltration và tunneling.
 
 Mình sử dụng công cụ Wireshark để tiến hành phân tích.
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
 Sau khi phân tích nhanh file pcap và sử dụng dns query thì dường như suy nghĩ ban đầu đã đúng định hướng, ta có thể thấy hành vi lạ trong thông tin trao đổi DNS.
 
@@ -75,7 +75,7 @@ Cách DNS hoạt động:
 * Khi bạn nhập một tên miền vào trình duyệt web, trình duyệt sẽ gửi một yêu cầu DNS đến máy chủ DNS (DNS server) để tìm địa chỉ IP tương ứng.
 * Máy chủ DNS sẽ trả về địa chỉ IP của tên miền đó, cho phép trình duyệt biết cách kết nối đến máy chủ web tương ứng.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 Các loại DNS record quan trọng:
 
@@ -89,7 +89,7 @@ Các loại DNS record quan trọng:
 
 DNS exfiltration là quá trình trái phép truyền dữ liệu từ một hệ thống hoặc mạng nội bộ ra ngoài mạng Internet hoặc hệ thống không được ủy quyền. Mục tiêu của data exfiltration thường là lấy cắp hoặc tiết lộ thông tin nhạy cảm, bí mật hoặc quan trọng của tổ chức hoặc cá nhân.&#x20;
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 Để hiểu rõ hơn trực quan hơn về DNS exfiltration, ta có thể xem video dưới đây:
 
@@ -138,7 +138,7 @@ Mình kiểm tra các DNS queries dài bất thường trong wireshark bằng qu
 dns && dns.qry.name.len > 35
 ```
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ta có thể thấy một lượng lớn traffic truy cập đến suspicious domain và IP&#x20;
 
@@ -160,7 +160,7 @@ Trong đó:&#x20;
 * `-e frame.time_relative`: Với `-e`, chúng ta chỉ định các trường mà chúng ta muốn trích xuất. Trong trường hợp này, chúng ta đang trích xuất thời gian tương đối của các gói tin.
 * `-e dns.qry.name`:  ta đang trích xuất tên miền DNS từ các gói tin.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
 Từ output ta có thể thấy ở subdomains chứa Hex number
 

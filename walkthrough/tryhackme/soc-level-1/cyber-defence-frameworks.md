@@ -8,7 +8,7 @@ description: >-
 
 ## Pyramid Of Pain
 
-&#x20;                                                    ![](<../../../.gitbook/assets/image (15).png>)
+&#x20;                                                    ![](<../../../.gitbook/assets/image (15) (1).png>)
 
 
 

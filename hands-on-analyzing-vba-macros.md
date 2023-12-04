@@ -25,24 +25,24 @@ I usually use `oletools`, and `oledump` to extract the macro. Most importantly, 
 
 The challenge give us an invoice html file.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can press the download button or simply open an editor and extract the base64 string in it then decode to a file.
 
 The file’s extension is `xlsm` which means it’s an excel file with macro enabled. You can see the list of extensions here.
 
-<figure><img src=".gitbook/assets/image (18).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Analyst
 
 Let’s use olevba to extract the macro’s source code. Actually, there are many ways to extract the macro’s content. You can use the combination of Alt + F11 to view VBA window when in an Office file like Word or Excel.\
 
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 We will use oledump to extract the structure of the macro.
 
-<figure><img src=".gitbook/assets/image (21).png" alt="" width="281"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (21) (1).png" alt="" width="281"><figcaption></figcaption></figure>
 
 The streams starting with "VBA/" contain the actual VBA code for different modules in the workbook, such as "Module1," "Sheet1," and "ThisWorkbook." These modules may contain macros or other VBA code that perform specific actions when the Excel file is opened or used.
 
@@ -50,7 +50,7 @@ Next step, use olevba to extract macro in files
 
 Empty macro in "Sheet1" and "ThisWorkbook"&#x20;
 
-<figure><img src=".gitbook/assets/image (24).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (24) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 But in "Module1" we have:
 
@@ -221,7 +221,7 @@ Damn, what a long source code!
 
 And here is the analysis output of olevba
 
-<figure><img src=".gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the source code lies two extremely suspicious functions that was obfuscated. They’re just normal base64 encode and decode process. How do I know? Just guessing based on output of olevba and some of signatures in `LeOyoqoF` and `hdYJNJmt` function.
 
@@ -262,7 +262,7 @@ After that, the macro decode a base64 string in somewhere of the excel file and 
 
 Last, execute the file by using **mshta**. The `Shell()` function will take this responsibility.
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Execute the macro
 

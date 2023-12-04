@@ -33,9 +33,9 @@ Use <mark style="color:red;">Wireshark</mark> open it.
 
 We have a lot of TCP and HTTP protocol. Let's check it
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-Filter <mark style="color:blue;">HTTP</mark>, We can see <mark style="color:orange;">**ip.src = 192.168.1.180**</mark> <mark style="color:orange;"></mark><mark style="color:orange;"></mark> (Attacker) sent a POST request&#x20;
+Filter <mark style="color:blue;">HTTP</mark>, We can see <mark style="color:orange;">**ip.src = 192.168.1.180**</mark> (Attacker) sent a POST request&#x20;
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ Check google I know it is a Spring4Shell
 
 &#x20;In this packet, Hacker is installing <mark style="color:red;">socat</mark> in the victim system and use reverse shell
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```basic

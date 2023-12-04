@@ -44,3 +44,4 @@
     * [Boss Of The SOC v2](walkthrough/cyberdefenders/boss-of-the-soc-v2.md)
     * [Boss Of The SOC v3](walkthrough/cyberdefenders/boss-of-the-soc-v3.md)
 * [📦 Resources](resources.md)
+* [🏳 CVE-2023-46214: Attack, Detect and Forensic](cve-2023-46214-attack-detect-and-forensic.md)
