@@ -210,7 +210,7 @@ Chúng tôi sử dụng công cụ `MFTECmd` để thực hiện quá trình tr�
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-Sau khi trích xuất file CSV từ MFTECmd, chúng tôi đã sử dụng \*\*`TimelineExplorer**` để phân tích và trực quan hóa dữ liệu. Công cụ này cho phép tôi nhập file CSV đã trích xuất và tổ chức các sự kiện theo dòng thời gian, từ đó tạo ra một cái nhìn rõ ràng về các hoạt động trên hệ thống.
+Sau khi trích xuất file CSV từ MFTECmd, chúng tôi đã sử dụng `Timeline Explorer` để phân tích và trực quan hóa dữ liệu. Công cụ này cho phép tôi nhập file CSV đã trích xuất và tổ chức các sự kiện theo dòng thời gian, từ đó tạo ra một cái nhìn rõ ràng về các hoạt động trên hệ thống.
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
